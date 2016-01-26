@@ -1,0 +1,176 @@
+.loading {
+  height: 20px;
+  background: url("http://i358.photobucket.com/albums/oo27/picturesqueworlds/30_zps8iumwypw.gif") center no-repeat;
+  margin-top: -20px;
+  margin-left: 290px;
+  visibility: hidden;
+}
+
+html {
+  color: black;
+}
+
+html,
+body {
+  margin: 0;
+  color: white;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body,
+html {
+  background: url("http://i358.photobucket.com/albums/oo27/picturesqueworlds/freecc_zpsapza31hy.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 50px;
+  display: inline-block;
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+}
+
+h1,
+.typedText {
+  font-family: 'Play', sans-serif;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9), 0 -1.5px 3px rgba(0, 0, 0, 0.9);
+}
+
+.typedText {
+  font-size: 30px;
+  text-align: center;
+  margin-top: -30px;
+  margin-left: -100px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.grid {
+  margin: 0 auto;
+}
+
+.grid-item {
+  position: relative;
+  opacity: 0;
+  background-image: url("http://i358.photobucket.com/albums/oo27/picturesqueworlds/white_leather_2X_zpsjyc6iwul.png");
+  width: 220px;
+  float: left;
+  color: black;
+  padding: 10px;
+  margin: 8px;
+  border-color: #DDDDDD;
+  border-radius: 0px;
+  border-width: 1px;
+  border-style: solid;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5), 0 -1.5px 3px rgba(0, 0, 0, 0.5);
+}
+
+.headline {
+  padding-top: 27px;
+  text-align: center;
+}
+
+.image-background {
+  line-height: 70%;
+  background-color: white;
+}
+
+#map-image {
+  margin-top: 20px;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
+.icon {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  margin-left: 163px;
+  margin-top: -40px;
+  color: black;
+  z-index: 1000;
+  text-align: center;
+  background-image: url("http://i358.photobucket.com/albums/oo27/picturesqueworlds/image%201_zpsh1niis6m.png");
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  line-height: 70px;
+}
+
+.icon img {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -4px;
+  margin-right: -7px;
+}
+
+.icon p {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  text-align: center;
+  margin-top: 39px;
+  margin-left: -17px;
+  margin-right: 1px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.sticker {
+  text-align: center;
+  margin-top: -12px;
+  margin-bottom: -18px;
+  background-color: yellow;
+  width: 38%;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  margin-left: 154px;
+  cursor: pointer;
+}
+
+#discuss-button {
+  vertical-align: middle;
+  width: 30%;
+  height: 25px;
+  line-height: 26px;
+  font-family: sans-serif;
+  font-style: italic;
+  display: inline-block;
+  text-align: center;
+  border: solid 1px #288c1a;
+  border-radius: 20px 3px 20px 4px;
+  moz-border-radius: 20px 3px 20px 4px;
+  -webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.7);
+  font-size: 15px;
+  color: #ffffff;
+  padding: 1px 17px;
+  background: #31fa1e;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #31fa1e), color-stop(100%, #30ab00));
+  background: -moz-linear-gradient(top, #31fa1e 0%, #30ab00 100%);
+  background: -webkit-linear-gradient(top, #31fa1e 0%, #30ab00 100%);
+  background: -o-linear-gradient(top, #31fa1e 0%, #30ab00 100%);
+  background: -ms-linear-gradient(top, #31fa1e 0%, #30ab00 100%);
+  background: linear-gradient(top, #31fa1e 0%, #30ab00 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#31fa1e', endColorstr='#30ab00', GradientType=0);
+}
