@@ -1,4 +1,5 @@
-<h1> Camper-News</h1>
+<h1> Camper News</h1>
+
 <h2>Objective:</h2>
 Build a CodePen.io app that successfully reverse-engineers this: http://codepen.io/MarufSarker/full/ZGPZLq/.
 
